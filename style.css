@@ -5,6 +5,11 @@ h1 {
   font-family: "Lobster", cursive;
   font-size: 40px;
 }
+#border {
+  border-left: 5px solid;
+  border-image: linear-gradient(yellow, green);
+  border-image-slice: 1;
+}
 h2 {
   font-family: "Lobster", cursive;
   font-weight: 30px;
@@ -91,7 +96,7 @@ section {
 #form {
   background-image: linear-gradient(rgb(229, 250, 112), rgb(154, 243, 154));
   border-radius: 10px;
-  padding-left: 100px;
+  padding-left: 135px;
   padding-right: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -112,4 +117,9 @@ footer {
 }
 .footer-color {
   color: white;
+}
+.mid-banner {
+  background-image: url(Photos/Others/mid-banner.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
 }
