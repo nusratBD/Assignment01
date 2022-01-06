@@ -9,6 +9,7 @@ h1 {
   border-left: 5px solid;
   border-image: linear-gradient(yellow, green);
   border-image-slice: 1;
+  line-height: 30px;
 }
 h2 {
   font-family: "Lobster", cursive;
