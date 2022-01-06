@@ -7,7 +7,11 @@ h1 {
 }
 #border {
   border-left: 5px solid;
-  border-image: linear-gradient(yellow, green);
+  border-image: linear-gradient(
+    rgb(248, 159, 159),
+    rgb(243, 243, 145),
+    rgb(181, 248, 181)
+  );
   border-image-slice: 1;
   line-height: 30px;
 }
@@ -19,7 +23,7 @@ h3 {
   font-family: "Lobster", cursive;
 }
 span {
-  color: red;
+  color: rgba(172, 36, 36, 0.973);
 }
 p {
   font-family: "Fira Sans", sans-serif;
@@ -49,10 +53,15 @@ section {
 .link-button {
   text-decoration: none;
   padding: 10px 30px;
-  background-image: linear-gradient(yellow, rgb(134, 231, 7));
-  color: red;
+  background-image: linear-gradient(
+    rgb(243, 243, 145),
+    rgb(181, 248, 181),
+    rgb(248, 159, 159)
+  );
+  color: rgba(172, 36, 36, 0.973);
   font-family: "Lobster", cursive;
   border-radius: 5px;
+  font-weight: bolder;
 }
 .div-flex {
   display: flex;
@@ -95,7 +104,11 @@ section {
   width: 50%;
 }
 #form {
-  background-image: linear-gradient(rgb(229, 250, 112), rgb(154, 243, 154));
+  background-image: linear-gradient(
+    rgb(248, 159, 159),
+    rgb(243, 243, 145),
+    rgb(181, 248, 181)
+  );
   border-radius: 10px;
   padding-left: 135px;
   padding-right: 100px;
@@ -106,7 +119,7 @@ input {
   height: 25px;
   border-radius: 10px;
   width: 310px;
-  border-color: greenyellow;
+  border-color: rgb(248, 159, 159);
 }
 .empty-div {
   width: 25%;
